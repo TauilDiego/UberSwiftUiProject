@@ -27,6 +27,10 @@ struct UberMapViewRepresentable: UIViewRepresentable {
         
     }
     
+    func example<T: Equatable>(a: T, b: T) {
+        
+    }
+    
     func makeCoordinator() -> MapCoordinator {
         return MapCoordinator(parent: self)
     }
