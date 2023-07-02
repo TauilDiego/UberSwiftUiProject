@@ -15,6 +15,7 @@
 		1E41F3CD2A4BD47400C81626 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41F3CC2A4BD47400C81626 /* LocationManager.swift */; };
 		1E490BEC2A51C65F002646D5 /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E490BEB2A51C65F002646D5 /* LocationSearchView.swift */; };
 		1E490BEE2A51CC74002646D5 /* LocationSearchResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E490BED2A51CC74002646D5 /* LocationSearchResultsCell.swift */; };
+		1E490BF02A51F6C9002646D5 /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E490BEF2A51F6C9002646D5 /* LocationSearchViewModel.swift */; };
 		1E6152D72A5076EE0070C132 /* LocationSearchActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6152D62A5076EE0070C132 /* LocationSearchActivationView.swift */; };
 		1EA257F62A50B607009F295D /* MapViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA257F52A50B607009F295D /* MapViewActionButton.swift */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,7 @@
 		1E41F3CC2A4BD47400C81626 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		1E490BEB2A51C65F002646D5 /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
 		1E490BED2A51CC74002646D5 /* LocationSearchResultsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultsCell.swift; sourceTree = "<group>"; };
+		1E490BEF2A51F6C9002646D5 /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
 		1E6152D62A5076EE0070C132 /* LocationSearchActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchActivationView.swift; sourceTree = "<group>"; };
 		1EA257F52A50B607009F295D /* MapViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewActionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -169,6 +171,7 @@
 		1E6152D52A5076D10070C132 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1E490BEF2A51F6C9002646D5 /* LocationSearchViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E490BF02A51F6C9002646D5 /* LocationSearchViewModel.swift in Sources */,
 				1E490BEC2A51C65F002646D5 /* LocationSearchView.swift in Sources */,
 				1E41F3CD2A4BD47400C81626 /* LocationManager.swift in Sources */,
 				1EA257F62A50B607009F295D /* MapViewActionButton.swift in Sources */,
